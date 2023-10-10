@@ -124,7 +124,7 @@ namespace Nes
 				}
 			};
 
-		private:
+		public:
 
 			struct Chr : ChrMem
 			{
@@ -426,7 +426,7 @@ namespace Nes
 
 		public:
 			Output output;
-		private:
+		public:
 			PpuModel model;
 			Hook hActiveHook;
 			Hook hBlankHook;
