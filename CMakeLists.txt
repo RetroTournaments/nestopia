@@ -307,5 +307,5 @@ target_compile_definitions(3rdnestopia PUBLIC
 )
 set_target_properties(3rdnestopia
     PROPERTIES COMPILE_FLAGS 
-    "-Wno-narrowing -Wno-deprecated-anon-enum-enum-conversion -Wno-implicit-int-float-conversion -Wno-deprecated-enum-float-conversion -fPIC"
+    "-Wno-narrowing -Wno-deprecated-enum-enum-conversion -Wno-deprecated-enum-float-conversion -fPIC"
 )
