@@ -1,5 +1,5 @@
 ################################################################################
-## This file added for argos
+## This file added for static
 cmake_minimum_required(VERSION 3.6)
 
 project(nestopia)
